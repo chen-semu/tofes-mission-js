@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="return tofes()">
+        <label for="first-name" id=""><h2 id="first_name_h2">first name</h2></label>
+        <input placeholder="first name" id="first_name" type="text" maxlength="10" required>
+        <br>
+        <h2 id="alert_name"></h2>
+        <br>
+        <label for="last-name" id=""><h2 id="last_name_h2">last name</h2></label>
+        <input placeholder="last name" id="last_name" type="text" maxlength="10" required>
+        <br>
+        <br>
+        <label for="user-tel" id=""><h2 id="phone_h2">phone</h2></label>
+        <input placeholder="phone number" id="user_tel" type="tel" maxlength="10">
+        <br>
+        <label for="user-email" id=""><h2 id="email_h2">email</h2></label>
+        <input placeholder="email" id="user_email" type="email">
+        <label for="birth-date" id=""><h2 id="birth-date_h2">birth date</h2></label>
+        <input id="birth-date" type="date" required>
+        <br>
+        <label for="pS1" id=""><h2 id="password_h2">password</h2></label>
+        <input placeholder="password" id=pS1" type="password" minlength="8" maxlength="12" required>
+        <br>
+        <label for="pS2" id=""><h2 id="conferm_password_h2">conferm password</h2></label>
+        <input placeholder="write same password again" id="pS2" type="password" minlength="8" maxlength="12" equired>
+        <br>
+        <br>
+        <button id="button"> submit</button>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
